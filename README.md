@@ -42,3 +42,15 @@ git branch <nombre/rama>
 ```sh
 git switch <nombre de rama>
 ```
+## Crear una rama
+
+```sh
+git branch <nombre-rama> #crear una rama pero nos deja en la rama actual (main)
+git switch -c <nombre-rama> # crea una rama y nos mueve a la rama que se creo
+```
+
+## Me muevo entre RAMAS
+
+```sh
+git switch <nombre-rama>
+```
