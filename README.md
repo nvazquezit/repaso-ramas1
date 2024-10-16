@@ -36,3 +36,9 @@ git show <numero de commit que figura en gitlog>
 ```sh
 git branch <nombre/rama>
 ```
+
+# Comando para pasar de una rama a otra
+
+```sh
+git switch <nombre de rama>
+```
