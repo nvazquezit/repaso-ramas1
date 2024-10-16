@@ -19,4 +19,14 @@ git config --global alias.a "add"
 git config --global alias.c "commit -m"
 git config --global alias.l "log --online"    
 ```
+## Ver las diferencias entre el WD y el LR
 
+```sh
+git diff
+```
+
+## Comando para ver el commit que agregue
+
+```sh
+git show <numero de commit que figura en gitlog>
+```
