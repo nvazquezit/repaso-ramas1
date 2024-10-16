@@ -30,3 +30,9 @@ git diff
 ```sh
 git show <numero de commit que figura en gitlog>
 ```
+
+# CREAR UNA RAMA
+
+```sh
+git branch <nombre/rama>
+```
