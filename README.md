@@ -75,3 +75,10 @@ git branch -a # me muestra las ramas locales y remotas
 git merge <rama-que-quiero-fusionar> # estando parado en la rama original o sea en la main seria git merge feature/ramas
 ```
 * lo mejor que puede pasar es la fusion -> Fast Forward -> git hace la fusion automaticamente
+
+## eliminar una rama
+
+```sh
+git branch -d <nombre-rama> # si la rama ya fue fusionada, la borra sin problemas
+git branch -D <nombre-rama> # confirmacion de borrado de una rama que todavia no ha sido fusionada en el repositorio
+```
