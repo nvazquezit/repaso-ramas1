@@ -69,3 +69,9 @@ git diff dev # ejemplo comparo feature/ramas (rama en la que estoy) con dev
 git branch -a # me muestra las ramas locales y remotas
 ```
 
+## Fusionando Ramas 
+
+```sh
+git merge <rama-que-quiero-fusionar> # estando parado en la rama original o sea en la main seria git merge feature/ramas
+```
+* lo mejor que puede pasar es la fusion -> Fast Forward -> git hace la fusion automaticamente
