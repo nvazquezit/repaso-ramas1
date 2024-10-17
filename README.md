@@ -54,3 +54,18 @@ git switch -c <nombre-rama> # crea una rama y nos mueve a la rama que se creo
 ```sh
 git switch <nombre-rama>
 ```
+## Comparar entre RAMAS
+
+```sh
+git diff <nombre-rama-que-quiero-comparar> # comparo la rama actual contra la rama que indico
+
+git diff dev # ejemplo comparo feature/ramas (rama en la que estoy) con dev
+
+```
+
+## Ver las ramas locales y remotas
+
+```sh
+git branch -a # me muestra las ramas locales y remotas
+```
+
