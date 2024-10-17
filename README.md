@@ -75,3 +75,10 @@ git branch -a # me muestra las ramas locales y remotas
 git merge <rama-que-quiero-fusionar> # estando parado en la rama original o sea en la main seria git merge feature/ramas
 ```
 * lo mejor que puede pasar es la fusion -> Fast Forward -> git hace la fusion automaticamente
+* Fusion con conflicto -> git no puede fusionar automaticamente, entonces nos va a pedir ayuda a nosotros
+
+## abortar la fusion 
+
+```sh
+git merge --abort
+```
